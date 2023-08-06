@@ -1,0 +1,22 @@
+{
+  "name": "noahs-arh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asamoahfrancis/Noahs-Arh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asamoahfrancis/Noahs-Arh/issues"
+  },
+  "homepage": "https://github.com/Asamoahfrancis/Noahs-Arh#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
