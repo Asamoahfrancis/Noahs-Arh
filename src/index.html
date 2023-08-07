@@ -49,8 +49,7 @@
     </header>
     <main class="w-[90%] mx-auto">
       <section
-        id="imgArea"
-        class="w-[100%] h-[612px] relative grid place-content-center content-center text-white"
+        class="w-[100%] bg-mainImg bg-center bg-contain bg-no-repeat h-[612px] relative grid place-content-center content-center text-white"
       >
         <div class="imgDiv">
           <div class="disc text-center text-[4rem] leading-[60px]">
@@ -64,11 +63,14 @@
             </p>
           </div>
           <div class="get_s grid place-content-center mt-5">
-            <button class="px-6 bg-[#078EEA] rounded-[20px] py-1">
+            <button class="px-5 bg-[#078EEA] text-xs rounded-[30px] py-3">
               GET STARTED
             </button>
           </div>
-          <div id="cus" class="cus flex translate-y-14 justify-center">
+          <div
+            id="cus"
+            class="cus flex translate-y-14 justify-center [&>p]:mr-[20px] [&>p]:text-[2rem] [&>p]:text-[900]"
+          >
             <p>
               2000 + <br />
               <span>listed Properties</span>
@@ -81,6 +83,70 @@
               50 + <br />
               <span>Awards</span>
             </p>
+          </div>
+        </div>
+      </section>
+      <section class="logoSection p-9 mt-10">
+        <div
+          id="logoArea"
+          class="logoArea p-1 flex justify-between w-4/5 mx-auto [&>div]:h-[50px] [&>div]:grow-1 [&>div]:shrink-1 [&>div]:basis-1/5"
+        >
+          <div class="quintex p-4 grid place-content-center content-center">
+            <p
+              class="bg-cover bg-center bg-no-repeat w-[70px] bg-quintex h-[40px]"
+            ></p>
+          </div>
+          <div class="snnit grid place-content-center content-center">
+            <p class="bg-snniit bg-cover bg-center w-[70px] h-[40px]"></p>
+          </div>
+          <div class="venix grid place-content-center content-center">
+            <p class="bg-venixx bg-cover bg-center w-[70px] h-[40px]"></p>
+          </div>
+          <div class="parabolic flex place-content-center items-center">
+            <p class="bg-paraIcon bg-contain bg-center w-[40px] h-[40px]"></p>
+            <p
+              class="bg-parabolic bg-center bg-contain bg-no-repeat w-[70px] ml-2 h-[40px]"
+            ></p>
+          </div>
+          <div class="flex place-content-center items-center">
+            <p class="bg-zindexI bg-cover bg-center w-[35px] h-[35px]"></p>
+            <p
+              class="bg-pedmas bg-contain bg-center ml-2 bg-no-repeat w-[70px] h-[40px]"
+            ></p>
+          </div>
+        </div>
+      </section>
+      <section
+        class="border h-[340pxpx] flex [&>div]:border [&>div]:grow-1 [&>div]:shrink-1 [&>div]:basis-1/2"
+      >
+        <div class="serviceLeft p-4">
+          <div class="innerLeft border">
+            <p>Our services</p>
+            <p class="text-[4rem]">
+              Our comprehensive <br />
+              real estate solutions
+            </p>
+            <p>
+              Unlocking opportunities, simplifying transactions, and building
+              lasting relationships
+            </p>
+            <button class="border">READ MORE</button>
+          </div>
+        </div>
+        <div class="serviceRight flex justify-end">
+          <div
+            class="innerRight w-[90%] h-[100%] [&>section]:grow [&>section]:shrink-1 [&>section]:basis-1/2 flex [&>section]:ml-4 [&>section]:text-white [&>section]:h-[347px] py-4"
+          >
+            <section
+              class="buyn bg-buyingImg bg-[length:100%_100%] bg-no-repeat relative"
+            >
+              <b class="absolute top-[60%] text-[3rem] left-10">Buying</b>
+            </section>
+            <section
+              class="selln bg-sellingImg bg-no-repeat bg-[length:100%_100%] text-[3rem] relative"
+            >
+              <b class="absolute top-[60%] left-10">Selling</b>
+            </section>
           </div>
         </div>
       </section>

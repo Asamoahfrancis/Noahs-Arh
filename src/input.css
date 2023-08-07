@@ -3,16 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  #imgArea {
-    background-image: url("../assest/Rectangle.png");
-    background-position: center center;
-    background-size: contain;
-  }
-  #cus p {
-    margin-right: 20px;
-    font-size: 2rem;
-    font-weight: 900;
-  }
   #cus p > span {
     font-size: 12px;
     display: block;

@@ -434,18 +434,6 @@ video {
   display: none;
 }
 
-#imgArea {
-  background-image: url("../assest/Rectangle.png");
-  background-position: center center;
-  background-size: contain;
-}
-
-#cus p {
-  margin-right: 20px;
-  font-size: 2rem;
-  font-weight: 900;
-}
-
 #cus p > span {
   font-size: 12px;
   display: block;
@@ -553,8 +541,20 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
+}
+
+.left-10 {
+  left: 2.5rem;
+}
+
+.top-\[60\%\] {
+  top: 60%;
 }
 
 .mx-auto {
@@ -566,8 +566,16 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .mr-auto {
   margin-right: auto;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mt-5 {
@@ -586,16 +594,52 @@ video {
   display: grid;
 }
 
+.h-\[100\%\] {
+  height: 100%;
+}
+
+.h-\[340pxpx\] {
+  height: 340pxpx;
+}
+
+.h-\[35px\] {
+  height: 35px;
+}
+
+.h-\[40px\] {
+  height: 40px;
+}
+
 .h-\[612px\] {
   height: 612px;
+}
+
+.h-\[330pxpx\] {
+  height: 330pxpx;
+}
+
+.w-4\/5 {
+  width: 80%;
 }
 
 .w-\[100\%\] {
   width: 100%;
 }
 
+.w-\[35px\] {
+  width: 35px;
+}
+
+.w-\[40px\] {
+  width: 40px;
+}
+
 .w-\[70\%\] {
   width: 70%;
+}
+
+.w-\[70px\] {
+  width: 70px;
 }
 
 .w-\[90\%\] {
@@ -635,6 +679,10 @@ video {
   justify-content: flex-start;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -643,12 +691,17 @@ video {
   justify-content: space-between;
 }
 
-.rounded-\[20px\] {
-  border-radius: 20px;
-}
-
 .rounded-\[30px\] {
   border-radius: 30px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-orange-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(234 88 12 / var(--tw-border-opacity));
 }
 
 .bg-\[\#078EEA\] {
@@ -656,19 +709,96 @@ video {
   background-color: rgb(7 142 234 / var(--tw-bg-opacity));
 }
 
+.bg-buyingImg {
+  background-image: url('/assest/buyingImg.png');
+}
+
+.bg-mainImg {
+  background-image: url('/assest/Rectangle.png');
+}
+
+.bg-paraIcon {
+  background-image: url('/assest/para_icon.png');
+}
+
+.bg-parabolic {
+  background-image: url('/assest/Parabolic.png');
+}
+
+.bg-pedmas {
+  background-image: url('/assest/Pedmas.png');
+}
+
+.bg-quintex {
+  background-image: url('/assest/logo.png');
+}
+
+.bg-sellingImg {
+  background-image: url('/assest/SellingImg.png');
+}
+
+.bg-snniit {
+  background-image: url('/assest/snnit.png');
+}
+
+.bg-venixx {
+  background-image: url('/assest/venix.png');
+}
+
+.bg-zindexI {
+  background-image: url('/assest/zindex.png');
+}
+
+.bg-\[length\:100\%_100\%\] {
+  background-size: 100% 100%;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-9 {
+  padding: 2.25rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .py-\[5px\] {
@@ -680,8 +810,17 @@ video {
   text-align: center;
 }
 
+.text-\[3rem\] {
+  font-size: 3rem;
+}
+
 .text-\[4rem\] {
   font-size: 4rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .leading-\[60px\] {
@@ -723,6 +862,60 @@ video {
 }
 
 .hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.\[\&\>div\]\:h-\[50px\]>div {
+  height: 50px;
+}
+
+.\[\&\>div\]\:basis-1\/2>div {
+  flex-basis: 50%;
+}
+
+.\[\&\>div\]\:basis-1\/5>div {
+  flex-basis: 20%;
+}
+
+.\[\&\>div\]\:border>div {
+  border-width: 1px;
+}
+
+.\[\&\>div\]\:border-red-600>div {
+  --tw-border-opacity: 1;
+  border-color: rgb(220 38 38 / var(--tw-border-opacity));
+}
+
+.\[\&\>p\]\:mr-\[20px\]>p {
+  margin-right: 20px;
+}
+
+.\[\&\>p\]\:text-\[2rem\]>p {
+  font-size: 2rem;
+}
+
+.\[\&\>p\]\:text-\[900\]>p {
+  color: 900;
+}
+
+.\[\&\>section\]\:ml-4>section {
+  margin-left: 1rem;
+}
+
+.\[\&\>section\]\:h-\[347px\]>section {
+  height: 347px;
+}
+
+.\[\&\>section\]\:grow>section {
+  flex-grow: 1;
+}
+
+.\[\&\>section\]\:basis-1\/2>section {
+  flex-basis: 50%;
+}
+
+.\[\&\>section\]\:text-white>section {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
