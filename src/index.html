@@ -117,20 +117,24 @@
         </div>
       </section>
       <section
-        class="border h-[340pxpx] flex [&>div]:border [&>div]:grow-1 [&>div]:shrink-1 [&>div]:basis-1/2"
+        class="h-[340pxpx] flex [&>div]:grow-1 [&>div]:shrink-1 [&>div]:basis-1/2"
       >
         <div class="serviceLeft p-4">
-          <div class="innerLeft border">
-            <p>Our services</p>
-            <p class="text-[4rem]">
+          <div class="innerLeft relative h-[340px]">
+            <p class="text-xs leading-5">Our services</p>
+            <p class="text-[3rem] mt-4 leading-[3.3rem] tracking-[4px]">
               Our comprehensive <br />
               real estate solutions
             </p>
-            <p>
-              Unlocking opportunities, simplifying transactions, and building
-              lasting relationships
+            <p class="text-xs leading-5 mt-4">
+              Unlocking opportunities, simplifying transactions, and <br />
+              building lasting relationships
             </p>
-            <button class="border">READ MORE</button>
+            <button
+              class="bg-[#078EEA] text-white top-[100%] px-5 py-3 rounded-full absolute"
+            >
+              READ MORE
+            </button>
           </div>
         </div>
         <div class="serviceRight flex justify-end">
@@ -150,6 +154,279 @@
           </div>
         </div>
       </section>
+      <section
+        class="conCont h-[340px] flex justify-end [&>div]:grow-1 [&>div]:shrink-1 [&>div]:w-[400px] [&>div]:h-[100%] [&>div]:text-white [&>div]:ml-4"
+      >
+        <div
+          class="consultation relative bg-consultionImg bg-center bg-[length:100%_100%] bg-no-repeat"
+        >
+          <b class="absolute top-[60%] text-[2rem] left-10"> Consultation </b>
+        </div>
+        <div
+          class="propertyMangement relative bg-propertyImg bg-center bg-[length:100%_100%] bg-no-repeat"
+        >
+          <b class="absolute top-[60%] text-[2rem] left-10">
+            Property <br />
+            Management
+          </b>
+        </div>
+      </section>
+      <section class="p-9 mt-20">
+        <div
+          class="p-1 flex justify-between w-4/5 mx-auto [&>div]:h-[80px] [&>div]:grow-1 [&>div]:shrink-1 [&>div]:basis-1/5"
+        >
+          <div class="flex flex-col place-content-center items-center">
+            <p class="mb-3 text-sm font-medium">location</p>
+            <button
+              class="border-2 grid place-content-center ml-2 px-6 py-5 bg-no-repeat w-[90%] hover:bg-[#078EEA] hover:text-white text-gray-400 rounded-full h-[40px]"
+            >
+              Oyarifa, Ghana
+            </button>
+          </div>
+          <div class="flex flex-col place-content-center items-center">
+            <p class="mb-3 text-sm font-medium">Property Type</p>
+            <button
+              class="border-2 grid place-content-center ml-2 px-6 py-5 bg-no-repeat w-[90%] hover:bg-[#078EEA] hover:text-white text-gray-400 rounded-full h-[40px]"
+            >
+              Two Bedrooms
+            </button>
+          </div>
+          <div class="flex flex-col place-content-center items-center">
+            <p class="mb-3 text-sm font-medium">Budget</p>
+            <button
+              class="border-2 flex justify-center items-center ml-2 px-6 py-5 bg-no-repeat w-[90%] hover:bg-[#078EEA] text-gray-400 hover:text-white rounded-full h-[40px]"
+            >
+              <span class="mx-4">50K - 70K</span>
+              <span class="bg-downButton bg-center bg-cover w-2 h-2"></span>
+            </button>
+          </div>
+
+          <div class="flex place-content-center items-end">
+            <button
+              class="grid place-content-center ml-2 px-6 py-5 bg-no-repeat w-[90%] bg-[#078EEA] text-white rounded-full h-[40px]"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured py-9 mt-10">
+        <div class="featured_upperSide flex items-center justify-between">
+          <div>
+            <p class="text-gray-400 text-[16px]">Featured Properties</p>
+          </div>
+          <div class="flex">
+            <button
+              class="border border-[#078EEA] bg-vectorLeft px-10 py-5 ml-4 bg-center bg-[length:30%_30%] rounded-full bg-no-repeat w-[20px] h-[20px]"
+            ></button>
+            <button
+              class="border bg-vectorRight bg-[#078EEA] px-10 py-5 ml-4 bg-center rounded-full bg-[length:30%_30%] bg-no-repeat w-[20px] h-[20px]"
+            ></button>
+          </div>
+        </div>
+        <div
+          class="featured_lowerSide h-[330px] overflow-auto py-4 flex-nowrap flex [&>section]:grow-0 [&>section]:shrink-0 [&>section]:basis-[260px] [&>section]:mr-4 mt-4"
+        >
+          <section
+            class="bg-firstImg text-white bg-no-repeat bg-left rounded-2xl"
+          >
+            <div class="firstInner w-[95%] relative top-[55%] pl-4 text-[14px]">
+              <p>Takoradi Seaside Condo</p>
+              <div class="flex">
+                <img
+                  src="/assest/ion_location-outline.png"
+                  class="mr-2"
+                  alt=""
+                />
+                <span>Takoradi, Oceania</span>
+              </div>
+              <div class="flex justify-between">
+                <div class="flex w-[60%] items-center">
+                  <p class="mr-2">
+                    <img src="/assest/ic_sharp-bed.png" alt="" />
+                  </p>
+                  <p>4 Bedrooms</p>
+                </div>
+                <div class="flex items-center">
+                  <img
+                    src="/assest/teenyicons_bath-outline.png"
+                    class="mr-2"
+                    alt=""
+                  />
+                  <span>4 baths</span>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <img
+                  src="/assest//arcticons_tapemeasure.png"
+                  class="mr-4"
+                  alt=""
+                />
+                <span>24 x 26 ft <sup>2</sup></span>
+              </div>
+            </div>
+          </section>
+          <section
+            class="bg-secondImg text-white bg-no-repeat bg-left rounded-2xl"
+          >
+            <div class="firstInner w-[95%] relative top-[55%] pl-4 text-[14px]">
+              <p>Takoradi Seaside Condo</p>
+              <div class="flex">
+                <img
+                  src="/assest/ion_location-outline.png"
+                  class="mr-2"
+                  alt=""
+                />
+                <span>Takoradi, Oceania</span>
+              </div>
+              <div class="flex justify-between">
+                <div class="flex w-[60%] items-center">
+                  <p class="mr-2">
+                    <img src="/assest/ic_sharp-bed.png" alt="" />
+                  </p>
+                  <p>4 Bedrooms</p>
+                </div>
+                <div class="flex items-center">
+                  <img
+                    src="/assest/teenyicons_bath-outline.png"
+                    class="mr-2"
+                    alt=""
+                  />
+                  <span>4 baths</span>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <img
+                  src="/assest/arcticons_tapemeasure.png"
+                  class="mr-4"
+                  alt=""
+                />
+                <span>24 x 26 ft <sup>2</sup></span>
+              </div>
+            </div>
+          </section>
+          <section
+            class="bg-thirdImg text-white bg-no-repeat bg-left rounded-2xl"
+          >
+            <div class="firstInner w-[95%] relative top-[55%] pl-4 text-[14px]">
+              <p>Takoradi Seaside Condo</p>
+              <div class="flex">
+                <img
+                  src="/assest/ion_location-outline.png"
+                  class="mr-2"
+                  alt=""
+                />
+                <span>Takoradi, Oceania</span>
+              </div>
+              <div class="flex justify-between">
+                <div class="flex w-[60%] items-center">
+                  <p class="mr-2">
+                    <img src="/assest/ic_sharp-bed.png" alt="" />
+                  </p>
+                  <p>4 Bedrooms</p>
+                </div>
+                <div class="flex items-center">
+                  <img
+                    src="/assest/teenyicons_bath-outline.png"
+                    class="mr-2"
+                    alt=""
+                  />
+                  <span>4 baths</span>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <img
+                  src="/assest//arcticons_tapemeasure.png"
+                  class="mr-4"
+                  alt=""
+                />
+                <span>24 x 26 ft <sup>2</sup></span>
+              </div>
+            </div>
+          </section>
+          <section
+            class="bg-forthImg text-white bg-no-repeat bg-left rounded-2xl"
+          >
+            <div class="firstInner w-[95%] relative top-[55%] pl-4 text-[14px]">
+              <p>Takoradi Seaside Condo</p>
+              <div class="flex">
+                <img
+                  src="/assest/ion_location-outline.png"
+                  class="mr-2"
+                  alt=""
+                />
+                <span>Takoradi, Oceania</span>
+              </div>
+              <div class="flex justify-between">
+                <div class="flex w-[60%] items-center">
+                  <p class="mr-2">
+                    <img src="/assest/ic_sharp-bed.png" alt="" />
+                  </p>
+                  <p>4 Bedrooms</p>
+                </div>
+                <div class="flex items-center">
+                  <img
+                    src="/assest/teenyicons_bath-outline.png"
+                    class="mr-2"
+                    alt=""
+                  />
+                  <span>4 baths</span>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <img
+                  src="/assest//arcticons_tapemeasure.png"
+                  class="mr-4"
+                  alt=""
+                />
+                <span>24 x 26 ft <sup>2</sup></span>
+              </div>
+            </div>
+          </section>
+          <section
+            class="bg-firstImg text-white bg-no-repeat bg-left rounded-2xl"
+          >
+            <div class="firstInner w-[95%] relative top-[55%] pl-4 text-[14px]">
+              <p>Takoradi Seaside Condo</p>
+              <div class="flex">
+                <img
+                  src="/assest/ion_location-outline.png"
+                  class="mr-2"
+                  alt=""
+                />
+                <span>Takoradi, Oceania</span>
+              </div>
+              <div class="flex justify-between">
+                <div class="flex w-[60%] items-center">
+                  <p class="mr-2">
+                    <img src="/assest/ic_sharp-bed.png" alt="" />
+                  </p>
+                  <p>4 Bedrooms</p>
+                </div>
+                <div class="flex items-center">
+                  <img
+                    src="/assest/teenyicons_bath-outline.png"
+                    class="mr-2"
+                    alt=""
+                  />
+                  <span>4 baths</span>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <img
+                  src="/assest/arcticons_tapemeasure.png"
+                  class="mr-4"
+                  alt=""
+                />
+                <span>24 x 26 ft <sup>2</sup></span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section class="border py-9 mt-10">klsdkd</section>
     </main>
   </body>
 </html>
