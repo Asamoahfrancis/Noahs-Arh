@@ -30,6 +30,10 @@ module.exports = {
         thirdImg: "url('/assest/thirdImg.png')",
         forthImg: "url('/assest/forthImg.png')",
         fithImg: "url('/assest/firstImg.png')",
+        mrLeftImg: "url('/assest/mrLeft.png')",
+
+        madamImg: "url('/assest/madam.png')",
+        kilImg: "url('/assest/kil.png')",
       },
     },
   },
