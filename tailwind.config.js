@@ -17,7 +17,6 @@ module.exports = {
         consultionImg: "url('/dist/assest/consultationImg.png')",
         propertyImg: "url('/dist/assest/PropertyManagement.png')",
         downButton: "url('/dist/assest/downButton.png')",
-
         vectorLeft: "url('/dist/assest/VectorLeft.png')",
         vectorRight: "url('/dist/assest/VectorRight.png')",
         tape: "url('/dist/assest/arcticons_tapemeasure.png')",
@@ -31,7 +30,6 @@ module.exports = {
         forthImg: "url('/dist/assest/forthImg.png')",
         fithImg: "url('/dist/assest/firstImg.png')",
         mrLeftImg: "url('/dist/assest/mrLeft.png')",
-
         madamImg: "url('/dist/assest/madam.png')",
         kilImg: "url('/dist/assest/kil.png')",
       },
